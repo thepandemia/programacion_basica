@@ -1,2 +1,8 @@
-# programacion_basica
-Scripts de programacion basica
+# programacion básica
+Scripts de programacion básica
+- Octave
+- Javascript
+- HTML
+- CSS
+
+
