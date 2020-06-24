@@ -16,7 +16,7 @@ for (const prop in obj) {
   console.log(`obj.${prop} = ${obj[prop]}`);
 }
 
-// Nota: Importante está obsoleta
+// Nota: Importante está obsoleta E6
 // for each (variable in objeto)
   // sentencia
 var sum = 0;
@@ -26,7 +26,7 @@ for each (var item in obj) {
 }
 print(sum); // imprime "26", que es 5+13+8
 
-// ForEach
+// ForEach solo para arreglos
 var arr = [0, 10, 11, 12, 33, 44];
 arr.forEach((elemento, index) => {
   console.log(elemento, index)
@@ -39,9 +39,9 @@ arr.forEach((elemento, index) => {
 n = 0;
 x = 0;
 while (n < 3) {
-  n ++;
+  n ++; // Cuidado si esto no existe se va al infinito
   x += n;
-  console.log(n);
+  console.log(n, x);
 }
 
 // Ciclo do...while
@@ -54,3 +54,7 @@ do {
 } while (i < 5);
 
 console.log(result);
+
+// Tarea:
+// 1. Consultar el método de la borbuja
+// [0, 1, 2, 3, 4] - console.log() -> [4, 3, 2, 1, 0]
