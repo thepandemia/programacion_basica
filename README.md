@@ -12,5 +12,10 @@ Scripts de programacion básica
 git clone https://github.com/thepandemia/programacion_basica.git
 ```
 
+### Clases 1
+1. Variables
+2. Ciclos
+3. Condicionales
+
 
 
