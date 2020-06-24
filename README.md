@@ -17,5 +17,8 @@ git clone https://github.com/thepandemia/programacion_basica.git
 2. Ciclos
 3. Condicionales
 
+### Clase 2
+Integración de html, css, js
+
 
 
