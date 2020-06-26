@@ -1,0 +1,69 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* Header */
+header {
+
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Content */
+content {
+  
+}
+
+#app {
+  position: relative;
+  background-color: blueviolet;
+  /* display: flex; */
+}
+
+#caja1 {
+  width: 400px;
+  height: 100px;
+}
+
+#caja2 {
+  background-color: blue;
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  bottom: 0;
+  /* left: 10px; */
+  width: 400px;
+  height: 100px;
+}
+
+#caja3 {
+  width: 600px;
+  height: 100px;
+}
+
+#caja4 {
+  background-color: green;
+  width: 200px;
+  height: 100px;
+}
+
+.color {
+  background-color: indianred;
+}
+
+
+/* Footer */
+footer {
+
+}
+
+h5 {
+  margin: 0;
+}
