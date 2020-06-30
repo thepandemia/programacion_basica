@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  position: relative;
 }
 
 /* Header */
@@ -23,13 +24,19 @@ content {
 
 #app {
   position: relative;
-  background-color: blueviolet;
   /* display: flex; */
 }
 
+#sub_app {
+  position: absolute;
+  background-color: blueviolet;
+  top: 100px;
+}
+
 #caja1 {
-  width: 400px;
+  width: 50vh;
   height: 100px;
+  border-radius: 25px;
 }
 
 #caja2 {
