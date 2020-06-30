@@ -1,3 +1,5 @@
+var miStorage = window.localStorage;
+
 window.onload = () => {
   var cnvs = document.getElementById('canvasGame')
   var ctx = cnvs.getContext('2d')
@@ -16,6 +18,8 @@ window.onload = () => {
   }
 
   setInterval(() => {
+    miStorage.setItem('@pos_x', xRect);
+    miStorage.setItem('@pos_y', yRect);
     clearRect()
     dibujarRect(xRect++, yRect++)
   }, 500)
