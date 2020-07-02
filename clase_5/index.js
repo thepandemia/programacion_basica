@@ -23,7 +23,8 @@ const clickDwn = () => {
 }
 
 window.onload = () => {
-  var cnvs = document.getElementById('canvasGame')
+  var cnvs = $('#canvasGame')
+  console.log(cnvs)
   // var upBtn = document.getElementById('up')
   // var lftBtn = document.getElementById('lft')
   // var rghBtn = document.getElementById('rgh')
